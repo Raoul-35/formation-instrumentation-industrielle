@@ -1,4 +1,4 @@
-# LEÇON 05 — TRANSMETTEUR DE TEMPÉRATURE INDUSTRIEL
+# LEÇON 02 — TRANSMETTEUR DE TEMPÉRATURE INDUSTRIEL
 
 ## 1. Définition et rôle
 
@@ -291,4 +291,4 @@ Un transmetteur est configuré de 0 à 200 °C. Quel courant correspond à 150 �
 Pourquoi installe-t-on parfois un transmetteur directement dans la tête de raccordement de la sonde ?
 
 ---
-**Fin de la leçon 05 — Transmetteur de température**
+**Fin de la leçon 02 — Transmetteur de température**
