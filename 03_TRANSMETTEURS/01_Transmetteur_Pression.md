@@ -1,4 +1,4 @@
-# LEÇON 04 — TRANSMETTEUR DE PRESSION INDUSTRIEL
+# LEÇON 01 — TRANSMETTEUR DE PRESSION INDUSTRIEL
 
 ## 1. Définition et rôle
 
@@ -273,4 +273,4 @@ Pourquoi utilise-t-on 4 mA comme valeur basse au lieu de 0 mA ?
 Quel équipement faut-il ajouter à une CPU S7-1200 1214C standard pour recevoir directement un signal 4–20 mA ?
 
 ---
-**Fin de la leçon 04 — Transmetteur de pression**
+**Fin de la leçon 01 — Transmetteur de pression**
