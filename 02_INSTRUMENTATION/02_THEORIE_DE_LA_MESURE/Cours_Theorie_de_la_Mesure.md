@@ -2,28 +2,31 @@
 
 **Formation :** Instrumentation industrielle  
 **Niveau :** Licence technologique GEII  
-**Module :** 02 — Instrumentation  
-**Domaine :** Fondements scientifiques et mathématiques de la mesure
+**Module :** 02 — Instrumentation
 
 ---
 
-# OBJECTIF GÉNÉRAL
+# OBJECTIFS DU CHAPITRE
 
-Comprendre les fondements physiques, scientifiques et mathématiques qui permettent de réaliser une mesure, d'interpréter un résultat et d'établir une relation entre une grandeur physique et sa valeur mesurée.
+## Objectif général
 
-# OBJECTIFS SPÉCIFIQUES
+Comprendre les fondements physiques, scientifiques et mathématiques de la mesure afin de maîtriser les principes qui permettent de déterminer une grandeur physique, d'interpréter le résultat obtenu et d'établir une relation entre la grandeur recherchée et les observations expérimentales.
 
-À la fin de ce chapitre, l'apprenant devra être capable de :
+## Objectifs spécifiques
 
-- Expliquer les principes fondamentaux de la mesure.
-- Identifier les éléments intervenant dans un processus de mesure.
-- Distinguer les différentes méthodes de mesure.
+À la fin de ce chapitre, l'apprenant doit être capable de :
+
+- Expliquer les principes fondamentaux du mesurage.
+- Identifier et caractériser une grandeur à mesurer.
+- Expliquer les différentes méthodes de mesure.
+- Distinguer les méthodes par déviation, par zéro et par substitution.
 - Comprendre les principes de comparaison et d'équilibre.
-- Établir des relations mathématiques entre grandeurs physiques.
-- Analyser les phénomènes physiques intervenant dans une mesure.
-- Interpréter les résultats obtenus dans une application industrielle.
+- Distinguer les déterminations directes et indirectes.
+- Établir des relations mathématiques entre les grandeurs physiques.
+- Appliquer les lois physiques à des situations de mesure industrielles.
+- Interpréter les résultats obtenus lors d'une opération de mesure.
 
-# PLAN DU CHAPITRE
+## PLAN DU CHAPITRE
 
 1. Fondements et principes de la mesure.
 2. Grandeur à mesurer et principe de mesurage.
@@ -32,59 +35,40 @@ Comprendre les fondements physiques, scientifiques et mathématiques qui permett
 5. Mesures directes et indirectes.
 6. Relations mathématiques et lois physiques appliquées à la mesure.
 7. Synthèse générale.
-8. Exercices d'application et études de cas industriels.
+8. Exercices d'application.
 9. Évaluation générale.
-
-# APPROCHE PÉDAGOGIQUE
-
-Chaque partie comporte des explications théoriques, des relations mathématiques, des démonstrations, des exemples industriels et des exercices progressifs.
 
 ---
 
-# PARTIE I — FONDEMENTS ET PRINCIPES DE LA MESURE
+# 1. FONDEMENTS ET PRINCIPES DE LA MESURE
 
 ## 1.1. Définition de la mesure
 
-La mesure est une opération expérimentale qui consiste à déterminer la valeur d'une grandeur physique en la comparant à une référence de même nature ou en établissant une relation entre cette grandeur et d'autres grandeurs connues.
+La mesure est une opération expérimentale qui consiste à établir une relation entre une grandeur physique inconnue et une référence de même nature, afin de déterminer une valeur représentative de cette grandeur.
 
-Elle permet de transformer une observation physique en un résultat quantifiable et exploitable.
+Par exemple, mesurer une tension électrique consiste à déterminer sa valeur en la comparant, directement ou indirectement, à une référence électrique connue.
 
-Exemples :
+La mesure ne consiste donc pas simplement à lire une valeur sur un appareil. Elle repose sur un principe physique, une méthode expérimentale et une relation entre plusieurs grandeurs.
 
-- Mesurer la température d'un palier de moteur.
-- Déterminer la pression dans une conduite.
-- Mesurer le courant absorbé par une pompe.
-- Déterminer la résistance électrique d'un enroulement.
-- Mesurer la vitesse de rotation d'un arbre.
+## 1.2. Les éléments fondamentaux d'une opération de mesure
 
-Une mesure ne consiste donc pas simplement à lire une valeur sur un appareil. Elle repose sur un principe physique, une méthode expérimentale et une interprétation du résultat.
+Une opération de mesure comporte plusieurs éléments.
 
-## 1.2. Les éléments fondamentaux d'une mesure
-
-Un processus de mesure fait intervenir plusieurs éléments.
-
-| Élément | Définition |
-|---|---|
-| Mesurande | Grandeur que l'on cherche à mesurer. |
-| Instrument | Dispositif utilisé pour effectuer la mesure. |
-| Méthode de mesure | Procédure utilisée pour obtenir le résultat. |
-| Référence | Valeur ou étalon servant de base à la comparaison. |
-| Conditions de mesure | Conditions dans lesquelles l'opération est réalisée. |
-| Résultat | Valeur obtenue à l'issue du processus de mesure. |
-
-Exemple : mesure de la tension aux bornes d'un moteur.
-
-- Mesurande : tension électrique.
-- Instrument : voltmètre.
-- Méthode : mesure par déviation ou conversion électronique.
-- Référence : référence interne de l'instrument, selon son principe de fonctionnement.
-- Résultat : valeur affichée en volts.
+| Élément | Signification | Exemple industriel |
+|---|---|---|
+| Grandeur à mesurer | Grandeur physique recherchée | Température d'un palier |
+| Système de mesure | Ensemble utilisé pour réaliser la mesure | Ensemble capteur et électronique |
+| Méthode de mesure | Principe expérimental utilisé | Comparaison ou déviation |
+| Instrument | Appareil utilisé pour obtenir une indication | Multimètre |
+| Référence | Valeur ou grandeur servant de comparaison | Résistance étalon |
+| Résultat | Valeur obtenue à l'issue du mesurage | 12,5 Ω |
+| Conditions de mesure | Conditions dans lesquelles la mesure est réalisée | Température ambiante, fonctionnement |
 
 ## 1.3. Principe général de la mesure
 
-Le principe fondamental consiste à établir une relation entre la grandeur inconnue et une référence ou un phénomène physique connu.
+Le principe fondamental consiste à établir une relation entre la grandeur recherchée et une référence connue.
 
-On peut représenter le processus de manière générale par :
+Cette relation peut être représentée de manière générale par :
 
 \[
 Y=f(X)
@@ -92,8 +76,8 @@ Y=f(X)
 
 Avec :
 
-- \(X\) : grandeur physique d'entrée.
-- \(Y\) : grandeur obtenue à la sortie du processus de mesure.
+- \(X\) : grandeur physique recherchée ou grandeur d'entrée ;
+- \(Y\) : grandeur obtenue ou indication de mesure ;
 - \(f\) : relation physique ou mathématique entre les deux grandeurs.
 
 Dans le cas particulier d'une relation linéaire :
@@ -104,188 +88,225 @@ Y=aX+b
 
 Où :
 
-- \(a\) représente le coefficient de proportionnalité ou la sensibilité.
+- \(a\) représente le coefficient de proportionnalité ou la sensibilité ;
 - \(b\) représente le décalage ou l'offset.
 
-Cette représentation générale sera approfondie dans le chapitre consacré à la modélisation des systèmes de mesure.
+**Exemple :**
 
-## 1.4. La mesure comme opération expérimentale
-
-Une mesure repose sur une interaction entre un phénomène physique et un dispositif expérimental.
-
-Prenons l'exemple d'une mesure de résistance par méthode voltampèremétrique.
-
-On applique une tension aux bornes d'une résistance inconnue et on mesure le courant qui la traverse.
-
-La relation physique exploitée est la loi d'Ohm :
+Un dispositif de mesure de température fournit une tension selon la relation idéale :
 
 \[
-U=RI
+U=0,01T
 \]
 
-La résistance recherchée peut alors être déterminée par :
+Pour une température de 80 °C :
 
 \[
-R=\frac{U}{I}
+U=0,01\times80
 \]
 
-La mesure repose ici sur l'exploitation de deux grandeurs électriques observées et d'une loi physique connue.
+\[
+\boxed{U=0,8\ V}
+\]
 
-## 1.5. Les limites de la mesure
+Cette relation permet de déterminer la température à partir de la tension mesurée.
 
-Une mesure réelle ne fournit jamais une connaissance absolument parfaite de la grandeur recherchée.
+## 1.4. Le mesurage comme opération expérimentale
 
-Plusieurs facteurs peuvent influencer le résultat :
+Le mesurage désigne l'ensemble des opérations expérimentales permettant d'obtenir un résultat de mesure.
 
-- Les limites de l'instrument.
-- Les conditions expérimentales.
-- La méthode utilisée.
-- Les phénomènes physiques exploités.
-- Les perturbations extérieures.
-- Les interactions entre l'instrument et le phénomène mesuré.
+Il comprend notamment :
 
-Il faut donc distinguer la valeur recherchée, la valeur obtenue et les limites de confiance associées au résultat.
+1. La définition de la grandeur recherchée.
+2. Le choix du principe et de la méthode de mesure.
+3. La mise en place des conditions expérimentales.
+4. L'acquisition des observations.
+5. L'exploitation des observations.
+6. L'établissement du résultat.
+
+Une erreur dans la définition de la grandeur recherchée ou dans la réalisation de l'expérience peut conduire à un résultat qui ne représente pas correctement le phénomène étudié.
+
+## 1.5. Valeur vraie, valeur conventionnelle et résultat de mesure
+
+### a) Valeur vraie
+
+La valeur vraie est la valeur que possède réellement une grandeur dans des conditions déterminées.
+
+En pratique, elle est généralement impossible à connaître exactement.
+
+### b) Valeur conventionnelle
+
+La valeur conventionnelle est une valeur attribuée à une grandeur et considérée comme suffisamment proche de sa valeur vraie pour un usage donné.
+
+Elle peut notamment être obtenue à partir d'un étalon ou d'une méthode de référence.
+
+### c) Résultat de mesure
+
+Un résultat de mesure comprend généralement une valeur numérique, une unité et, lorsque cela est nécessaire, une indication de l'incertitude associée.
+
+Exemple :
+
+\[
+T=(75,2\pm0,5)\ ^\circ C
+\]
+
+Cela signifie que le résultat annoncé est de 75,2 °C avec une incertitude de 0,5 °C, selon les conditions et la méthode utilisées pour établir cette incertitude.
+
+Il ne faut pas interpréter cet intervalle comme une garantie absolue que la valeur vraie se trouve obligatoirement entre 74,7 °C et 75,7 °C.
+
+## 1.6. Différence entre erreur et incertitude
+
+Ces deux notions sont liées, mais elles ne désignent pas la même chose.
+
+- **Erreur de mesure :** différence entre une valeur mesurée et une valeur de référence.
+- **Incertitude de mesure :** paramètre qui caractérise la dispersion des valeurs pouvant raisonnablement être attribuées au mesurande, compte tenu des informations disponibles.
+
+L'erreur représente un écart par rapport à une référence. L'incertitude exprime le doute associé au résultat.
 
 ---
 
-# PARTIE II — GRANDEUR À MESURER ET PRINCIPE DE MESURAGE
+# 2. GRANDEUR À MESURER ET PRINCIPE DE MESURAGE
 
 ## 2.1. Définition du mesurande
 
-Le mesurande est la grandeur particulière que l'on veut mesurer.
+Le mesurande est la grandeur que l'on souhaite mesurer.
 
-Sa définition doit être suffisamment précise pour éviter toute ambiguïté.
+Il ne suffit pas toujours de désigner une grandeur de manière générale. Il faut préciser exactement ce que l'on veut déterminer.
 
-Par exemple, dire simplement « mesurer la température du moteur » n'est pas toujours suffisant.
+**Exemple industriel :**
 
-Il faut préciser :
+Dans le cas d'un moteur électrique, la mention « température du moteur » est insuffisamment précise.
 
-- La partie du moteur concernée.
-- Le point de mesure.
-- La nature de la grandeur.
-- Les conditions de fonctionnement.
-- Le moment de la mesure.
+Il est préférable de définir le mesurande comme suit :
 
-Une définition plus rigoureuse serait :
+« Température de la surface extérieure du palier avant du moteur électrique, exprimée en degrés Celsius, mesurée pendant le fonctionnement normal du moteur. »
 
-« Température de la surface extérieure du palier avant d'un moteur électrique, exprimée en degrés Celsius, mesurée pendant son fonctionnement normal. »
+Cette définition précise :
 
-La précision de cette définition est importante, car deux points différents d'une même machine peuvent présenter des températures différentes.
+- La nature de la grandeur : température.
+- L'emplacement : surface extérieure du palier avant.
+- L'unité : degré Celsius.
+- Les conditions : fonctionnement normal du moteur.
 
-## 2.2. Nature et caractéristiques du mesurande
+## 2.2. Caractérisation du mesurande
 
-Un mesurande peut être caractérisé par plusieurs propriétés.
+Pour définir correctement une grandeur à mesurer, il faut notamment considérer :
 
-### A. Sa nature physique
-
-Il peut s'agir d'une grandeur :
-
-- Électrique.
-- Thermique.
-- Mécanique.
-- Hydraulique.
-- Chimique.
-
-### B. Son unité
-
-Toute grandeur doit être exprimée dans une unité appropriée.
-
-Exemples :
-
-| Grandeur | Unité |
+| Caractéristique | Question à se poser |
 |---|---|
-| Tension | Volt (V) |
-| Courant | Ampère (A) |
-| Résistance | Ohm (Ω) |
-| Température | Degré Celsius (°C) ou kelvin (K) |
-| Pression | Pascal (Pa) ou bar |
-| Vitesse de rotation | Tour par minute (tr/min) |
-| Force | Newton (N) |
+| Nature | Quelle grandeur veut-on mesurer ? |
+| Unité | Dans quelle unité sera exprimée la valeur ? |
+| Localisation | À quel endroit réalise-t-on la mesure ? |
+| Conditions | Dans quelles conditions réalise-t-on la mesure ? |
+| Temps | À quel instant ou pendant quelle durée ? |
+| État du système | Le système est-il à l'arrêt, au démarrage ou en régime établi ? |
 
-### C. Sa localisation
+Deux mesures portant sur une même catégorie de grandeur peuvent donc correspondre à des mesurandes différents.
 
-Une grandeur physique peut varier selon la position.
+## 2.3. Représentation mathématique d'une grandeur variable
 
-Exemple : la température du palier avant d'un moteur peut être différente de celle du palier arrière.
+Certaines grandeurs physiques évoluent avec le temps.
 
-### D. Son évolution temporelle
-
-Une grandeur peut être constante ou variable dans le temps.
-
-On peut représenter son évolution par une fonction :
+On peut représenter une grandeur variable par une fonction :
 
 \[
 X=f(t)
 \]
 
-Où \(t\) représente le temps.
+Où :
 
-## 2.3. Grandeur instantanée et grandeur moyenne
+- \(X\) représente la grandeur étudiée ;
+- \(t\) représente le temps.
 
-Lorsqu'une grandeur varie dans le temps, il est important de préciser la valeur recherchée.
+**Exemple : évolution de la pression dans une conduite.**
 
-### A. Valeur instantanée
+| Heure | Pression |
+|---|---:|
+| 08 h 00 | 6,0 bar |
+| 08 h 05 | 6,2 bar |
+| 08 h 10 | 6,5 bar |
+| 08 h 15 | 6,1 bar |
+| 08 h 20 | 5,9 bar |
+
+Ces valeurs permettent de caractériser plusieurs aspects du phénomène.
+
+### a) Valeur instantanée
 
 C'est la valeur de la grandeur à un instant déterminé.
 
-\[
-X=X(t)
-\]
+Exemple : à 08 h 10, la pression est de 6,5 bar.
 
-### B. Valeur moyenne
+### b) Valeur moyenne
 
-Pour une grandeur continue sur un intervalle de durée \(T\) :
-
-\[
-X_{\text{moy}}=\frac{1}{T}\int_0^T X(t)\,dt
-\]
-
-Pour un ensemble de \(n\) mesures discrètes :
+Pour un ensemble de \(n\) observations, la moyenne arithmétique est :
 
 \[
 X_{\text{moy}}=\frac{1}{n}\sum_{i=1}^{n}X_i
 \]
 
-Exemple :
-
-On relève les pressions suivantes dans une conduite :
+Pour les cinq valeurs précédentes :
 
 \[
-5;\ 5,5;\ 6;\ 6,5;\ 6\ \text{bar}
-\]
-
-La moyenne vaut :
-
-\[
-P_{\text{moy}}=\frac{5+5,5+6+6,5+6}{5}
+X_{\text{moy}}=\frac{6,0+6,2+6,5+6,1+5,9}{5}
 \]
 
 \[
-\boxed{P_{\text{moy}}=5,8\ \text{bar}}
+\boxed{X_{\text{moy}}=6,14\ bar}
 \]
 
-La moyenne ne renseigne cependant pas, à elle seule, sur les variations de la pression.
+### c) Valeur maximale et valeur minimale
 
-## 2.4. Valeur efficace d'une grandeur périodique
+La valeur maximale est la plus grande valeur observée.
 
-La valeur efficace, ou valeur RMS, est particulièrement importante en électrotechnique.
+La valeur minimale est la plus petite valeur observée.
 
-Elle correspond à la valeur d'une grandeur continue qui produirait le même effet thermique dans une résistance.
-
-Pour un signal périodique \(x(t)\) de période \(T\) :
+Dans notre exemple :
 
 \[
-X_{\text{eff}}=
-\sqrt{\frac{1}{T}\int_0^T x^2(t)\,dt}
+X_{\max}=6,5\ bar
 \]
-
-Pour une tension sinusoïdale :
 
 \[
-U_{\text{eff}}=\frac{U_{\max}}{\sqrt{2}}
+X_{\min}=5,9\ bar
 \]
 
-Ainsi, une tension de 230 V efficaces possède une valeur maximale approximative de :
+L'étendue des observations est :
+
+\[
+E=X_{\max}-X_{\min}
+\]
+
+\[
+E=6,5-5,9
+\]
+
+\[
+\boxed{E=0,6\ bar}
+\]
+
+## 2.4. Valeur efficace d'une grandeur électrique
+
+Dans les installations électriques, on utilise fréquemment la valeur efficace, notamment pour les tensions et les courants alternatifs.
+
+La valeur efficace d'un signal périodique est définie par :
+
+\[
+X_{\text{eff}}=\sqrt{\frac{1}{T}\int_0^T x^2(t)\,dt}
+\]
+
+Où :
+
+- \(x(t)\) est la valeur instantanée du signal ;
+- \(T\) est sa période ;
+- \(X_{\text{eff}}\) est sa valeur efficace.
+
+Pour un signal sinusoïdal :
+
+\[
+X_{\text{eff}}=\frac{X_{\max}}{\sqrt{2}}
+\]
+
+Ainsi, pour une tension sinusoïdale de valeur efficace 230 V :
 
 \[
 U_{\max}=230\sqrt{2}
@@ -295,60 +316,107 @@ U_{\max}=230\sqrt{2}
 \boxed{U_{\max}\approx325,3\ V}
 \]
 
-Cette distinction est essentielle pour interpréter correctement les mesures électriques.
-
-## 2.5. Conditions physiques du mesurande
-
-La valeur d'une grandeur peut dépendre d'autres paramètres physiques.
-
-Exemple : la résistance électrique d'un conducteur métallique dépend de sa température.
-
-Une approximation de cette dépendance est :
-
-\[
-R(T)=R_0[1+\alpha(T-T_0)]
-\]
-
-Avec :
-
-- \(R(T)\) : résistance à la température \(T\).
-- \(R_0\) : résistance à la température de référence \(T_0\).
-- \(\alpha\) : coefficient de température de la résistance.
-
-Application : lors d'un contrôle des enroulements d'un moteur, les températures doivent être prises en compte pour comparer correctement les résistances mesurées.
+La valeur efficace est importante parce qu'elle permet de caractériser l'effet thermique d'un courant alternatif dans une résistance.
 
 ---
 
-# PARTIE III — MÉTHODES ET TECHNIQUES DE MESURE
+# 3. MÉTHODES ET TECHNIQUES DE MESURE
+
+Il existe plusieurs méthodes permettant de déterminer la valeur d'une grandeur physique.
+
+Parmi les méthodes classiques, on distingue notamment la méthode par déviation, la méthode par zéro et la méthode par substitution.
 
 ## 3.1. Méthode par déviation
 
-La méthode par déviation consiste à déterminer une grandeur en observant le déplacement d'un indicateur ou la variation d'un signal de sortie.
+La méthode par déviation consiste à déterminer une grandeur à partir de la déviation d'un indicateur.
 
-Exemples :
+L'appareil fournit une indication qui varie en fonction de la grandeur mesurée.
 
-- Un ampèremètre analogique.
-- Un voltmètre à aiguille.
+**Exemples :**
+
+- Un ampèremètre analogique dont l'aiguille se déplace.
+- Un voltmètre analogique.
 - Un manomètre à tube de Bourdon.
-- Un thermomètre à cadran.
+- Un galvanomètre.
 
-Le déplacement de l'indicateur est lié à la grandeur mesurée.
+Le déplacement de l'indicateur est associé à une valeur de la grandeur recherchée.
 
-Pour un instrument idéalement linéaire :
+**Principe :**
+
+Grandeur physique → phénomène physique interne → déplacement de l'indicateur → lecture de la valeur.
+
+**Avantage :** la mesure est généralement rapide.
+
+**Limite :** la précision dépend notamment de la graduation, de la lecture et des caractéristiques de l'appareil.
+
+## 3.2. Méthode par zéro
+
+La méthode par zéro consiste à ajuster une grandeur de référence jusqu'à annuler la différence entre cette référence et la grandeur inconnue.
+
+La condition d'équilibre est :
 
 \[
-Y=aX+b
+\Delta X=X_x-X_r=0
 \]
 
-La valeur recherchée peut être déterminée à partir de la position de l'indicateur.
+Donc :
 
-**Avantage :** lecture relativement simple et rapide.
+\[
+\boxed{X_x=X_r}
+\]
 
-**Limite :** la qualité du résultat dépend notamment de la résolution, de la sensibilité et des caractéristiques de l'instrument.
+Où :
 
-## 3.2. Méthode du zéro
+- \(X_x\) est la grandeur inconnue ;
+- \(X_r\) est la grandeur de référence.
 
-La méthode du zéro consiste à ajuster une grandeur de référence jusqu'à ce que la différence entre la grandeur inconnue et la référence devienne nulle.
+**Exemple :**
+
+Dans un pont de Wheatstone, on ajuste une résistance jusqu'à ce que le courant dans le galvanomètre devienne nul.
+
+À cet instant, le pont est équilibré et la résistance inconnue peut être calculée.
+
+## 3.3. Méthode par substitution
+
+La méthode par substitution consiste à remplacer la grandeur inconnue par une grandeur de référence réglable, de manière à retrouver la même indication dans le dispositif de mesure.
+
+**Exemple :**
+
+On souhaite déterminer une résistance inconnue.
+
+1. On branche la résistance inconnue dans un circuit.
+2. On relève une indication de courant de 5 mA.
+3. On retire la résistance inconnue.
+4. On installe une résistance étalon réglable.
+5. On ajuste cette résistance jusqu'à retrouver une indication de 5 mA.
+
+La valeur de la résistance étalon au moment de l'équivalence permet de déterminer la résistance inconnue, sous réserve que les conditions expérimentales soient suffisamment identiques.
+
+**Intérêt :**
+
+La substitution permet de réduire certaines erreurs liées au dispositif de mesure, car la comparaison est réalisée avec le même système et dans des conditions similaires.
+
+Elle ne supprime toutefois pas toutes les erreurs ni toute l'incertitude.
+
+## 3.4. Comparaison des trois méthodes
+
+| Critère | Déviation | Zéro | Substitution |
+|---|---|---|---|
+| Principe | Observer une indication | Annuler une différence | Remplacer par une référence |
+| Grandeur de référence | Peut être intégrée à l'appareil | Nécessaire | Nécessaire |
+| Opération principale | Lire | Équilibrer | Remplacer et ajuster |
+| Exemple | Ampèremètre analogique | Pont de Wheatstone | Résistance étalon |
+| Particularité | Rapidité | Recherche de l'équilibre | Comparaison par équivalence |
+
+---
+
+# 4. MESURES PAR COMPARAISON ET PAR ÉQUILIBRE
+
+## 4.1. Principe de la comparaison
+
+La comparaison consiste à confronter une grandeur inconnue à une grandeur de référence de même nature.
+
+L'objectif est de déterminer l'écart entre les deux grandeurs ou d'établir une équivalence.
 
 On peut écrire :
 
@@ -356,10 +424,22 @@ On peut écrire :
 \Delta X=X_x-X_r
 \]
 
-À l'équilibre :
+Avec :
+
+- \(X_x\) : grandeur inconnue ;
+- \(X_r\) : grandeur de référence ;
+- \(\Delta X\) : différence entre les deux.
+
+Lorsque la différence est nulle, les deux grandeurs sont considérées comme équilibrées dans les conditions de l'expérience.
+
+## 4.2. Principe de l'équilibre
+
+Un système de mesure est en équilibre lorsque la grandeur inconnue et la grandeur de référence produisent des effets équivalents dans le dispositif de comparaison.
+
+La condition idéale est :
 
 \[
-\boxed{\Delta X=0}
+X_x-X_r=0
 \]
 
 Donc :
@@ -368,111 +448,37 @@ Donc :
 X_x=X_r
 \]
 
-Exemple : dans un pont de Wheatstone, on ajuste une résistance connue jusqu'à obtenir un équilibre électrique.
-
-Lorsque le galvanomètre indique un courant nul, la relation d'équilibre permet de calculer la résistance inconnue.
-
-## 3.3. Méthode de substitution
-
-La méthode de substitution consiste à remplacer une grandeur inconnue par une grandeur de référence réglable, de manière à reproduire le même effet expérimental.
-
-Exemple :
-
-1. On branche une résistance inconnue dans un circuit.
-2. On relève une indication de 5 mA.
-3. On remplace la résistance inconnue par une résistance étalon réglable.
-4. On ajuste cette résistance jusqu'à retrouver exactement 5 mA.
-5. La valeur de la résistance étalon permet de déterminer celle de la résistance inconnue, sous réserve que les conditions expérimentales soient identiques.
-
-Cette méthode peut réduire certaines erreurs liées à l'instrumentation, car les deux mesures utilisent le même dispositif dans des conditions comparables.
-
-Elle ne supprime cependant pas toutes les incertitudes.
-
-## 3.4. Comparaison des méthodes
-
-| Méthode | Principe | Exemple |
-|---|---|---|
-| Déviation | Observation d'une indication | Ampèremètre analogique |
-| Zéro | Recherche d'un équilibre | Pont de Wheatstone |
-| Substitution | Remplacement par une référence produisant le même effet | Mesure d'une résistance |
-
----
-
-# PARTIE IV — MESURES PAR COMPARAISON ET PAR ÉQUILIBRE
-
-## 4.1. Principe de comparaison
-
-Une mesure par comparaison consiste à confronter une grandeur inconnue à une grandeur de référence de même nature.
-
-Exemple : déterminer une masse en la comparant à des masses étalons.
-
-L'objectif est d'établir une relation entre la grandeur inconnue et la référence.
-
-## 4.2. Principe d'équilibre
-
-L'équilibre est atteint lorsque les effets associés à deux grandeurs opposées ou comparées se compensent.
-
-Mathématiquement :
-
-\[
-\Delta X=X_x-X_r
-\]
-
-À l'équilibre :
-
-\[
-\Delta X=0
-\]
-
-Donc :
-
-\[
-X_x=X_r
-\]
-
-Ce principe est exploité dans plusieurs dispositifs de mesure.
+Cette méthode est particulièrement intéressante lorsque l'on souhaite réduire l'influence de certaines caractéristiques du dispositif indicateur.
 
 ## 4.3. Application : pont de Wheatstone
 
-Le pont de Wheatstone est un circuit électrique permettant de déterminer une résistance inconnue par équilibre.
+Le pont de Wheatstone est un circuit électrique utilisé pour déterminer une résistance inconnue par une méthode d'équilibre.
 
-Il comporte :
+Il est constitué de quatre résistances disposées en pont, d'une source d'alimentation et d'un galvanomètre.
 
-- Quatre résistances disposées en pont.
-- Une source d'alimentation.
-- Un galvanomètre ou un détecteur de différence de potentiel.
+Lorsque le pont est équilibré, le courant traversant le galvanomètre est nul.
 
-Lorsque le pont est équilibré, le courant dans le galvanomètre est nul.
-
-Pour le montage considéré :
+La relation d'équilibre est :
 
 \[
 \frac{R_1}{R_2}=\frac{R_3}{R_x}
 \]
 
-On en déduit :
+En isolant la résistance inconnue :
 
 \[
 \boxed{R_x=\frac{R_2R_3}{R_1}}
 \]
 
-### Exemple numérique
+### Exemple d'application
 
-Données :
+On dispose des valeurs suivantes :
 
-\[
-R_1=100\ \Omega
-\]
+- \(R_1=100\ \Omega\)
+- \(R_2=200\ \Omega\)
+- \(R_3=150\ \Omega\)
 
-\[
-R_2=200\ \Omega
-\]
-
-\[
-R_3=150\ \Omega
-\]
-
-La résistance inconnue vaut :
+Déterminons la résistance inconnue.
 
 \[
 R_x=\frac{200\times150}{100}
@@ -482,121 +488,95 @@ R_x=\frac{200\times150}{100}
 \boxed{R_x=300\ \Omega}
 \]
 
-Le résultat est obtenu sans mesurer directement le courant traversant la résistance inconnue.
+La résistance inconnue vaut donc 300 Ω dans les conditions de l'équilibre.
 
-## 4.4. Application aux capteurs résistifs
+## 4.4. Application industrielle : mesure de force par jauge de contrainte
 
-Le principe du pont de Wheatstone est également utilisé avec certains éléments résistifs sensibles aux variations physiques.
+Une jauge de contrainte est un élément résistif dont la résistance varie lorsqu'elle subit une déformation mécanique.
 
-Exemple : une jauge de contrainte.
+Lorsqu'une force est appliquée sur une pièce mécanique, celle-ci se déforme légèrement. Cette déformation entraîne une variation de résistance de la jauge.
 
-Lorsqu'une pièce mécanique subit une déformation, la résistance de la jauge varie.
+Le principe peut être représenté ainsi :
 
-Cette variation provoque un déséquilibre du pont et fait apparaître une tension différentielle.
+Force appliquée → Déformation mécanique → Variation de résistance → Déséquilibre du pont → Tension électrique mesurable.
 
-La chaîne physique est :
+Les jauges de contrainte sont notamment utilisées dans :
 
-\[
-\text{Force}
-\rightarrow
-\text{Déformation}
-\rightarrow
-\text{Variation de résistance}
-\rightarrow
-\text{Déséquilibre du pont}
-\rightarrow
-\text{Tension électrique}
-\]
+- Les cellules de pesage.
+- Les balances industrielles.
+- Les systèmes de pesage de silos.
+- Les bancs d'essais mécaniques.
+- Les dispositifs de surveillance de structures.
 
-Applications :
-
-- Cellules de pesage.
-- Pesage industriel de silos.
-- Bancs d'essai mécaniques.
-- Mesure des contraintes sur des structures.
+Le pont de Wheatstone permet de transformer de faibles variations de résistance en une tension différentielle exploitable.
 
 ---
 
-# PARTIE V — MESURES DIRECTES ET INDIRECTES
+# 5. MESURES DIRECTES ET INDIRECTES
 
-## 5.1. Mesure directe
+## 5.1. Détermination directe
 
-Dans le sens pratique, une mesure est dite directe lorsque l'instrument fournit directement à l'opérateur la valeur recherchée, sans qu'il ait à effectuer un calcul à partir d'autres mesures.
+Dans le sens pratique courant, une détermination est dite directe lorsque l'appareil fournit directement à l'utilisateur la valeur de la grandeur recherchée.
 
-Exemples :
+**Exemples :**
 
-- Lecture d'une tension sur un voltmètre.
-- Lecture d'une pression sur un manomètre.
-- Lecture d'une température sur un thermomètre numérique.
+- Un thermomètre affichant 65 °C.
+- Un manomètre affichant 7 bar.
+- Un multimètre affichant une résistance de 120 Ω.
 
-Cette notion ne signifie pas que l'instrument ne réalise aucun traitement interne.
+Il faut cependant distinguer cette utilisation pratique du terme « direct » de la notion de comparaison directe avec un étalon de même nature.
 
-Un multimètre numérique peut effectuer des conversions et des calculs électroniques avant d'afficher une résistance.
+Un appareil peut afficher directement une résistance tout en réalisant intérieurement plusieurs opérations électriques.
 
-## 5.2. Mesure indirecte
+## 5.2. Détermination indirecte
 
-Une mesure est indirecte lorsque la grandeur recherchée est déterminée par calcul à partir d'autres grandeurs mesurées.
+Une détermination est indirecte lorsque la grandeur recherchée est calculée à partir d'autres grandeurs mesurées, en utilisant une relation physique ou mathématique.
 
-La relation utilisée repose sur une loi physique ou mathématique.
+**Exemple : détermination d'une résistance électrique.**
 
-Exemple : détermination d'une résistance par la loi d'Ohm.
+On mesure :
+
+- Une tension \(U=24\ V\).
+- Un courant \(I=2\ A\).
+
+En appliquant la loi d'Ohm :
 
 \[
 R=\frac{U}{I}
 \]
 
-Si :
-
 \[
-U=24\ V
-\]
-
-et :
-
-\[
-I=0,4\ A
-\]
-
-Alors :
-
-\[
-R=\frac{24}{0,4}
+R=\frac{24}{2}
 \]
 
 \[
-\boxed{R=60\ \Omega}
+\boxed{R=12\ \Omega}
 \]
 
-La résistance est obtenue à partir de deux mesures électriques.
+La résistance est obtenue par calcul à partir de deux grandeurs mesurées.
 
-## 5.3. Application à la puissance électrique triphasée
+## 5.3. Autre exemple : puissance électrique triphasée
 
 Dans un système triphasé équilibré, la puissance active peut être déterminée par :
 
 \[
-P=\sqrt{3}UI\cos\varphi
+P=\sqrt{3}\,U\,I\,\cos\varphi
 \]
 
-Avec :
+Où :
 
-- \(P\) : puissance active en watts.
-- \(U\) : tension composée en volts.
-- \(I\) : courant de ligne en ampères.
-- \(\cos\varphi\) : facteur de puissance.
+- \(P\) est la puissance active en watts ;
+- \(U\) est la tension composée en volts ;
+- \(I\) est le courant de ligne en ampères ;
+- \(\cos\varphi\) est le facteur de puissance.
 
-Exemple :
+**Exemple :**
 
-\[
-U=400\ V
-\]
+Un moteur fonctionne avec :
 
-\[
-I=10\ A
-\]
-
-\[
-\cos\varphi=0,85
-\]
+- \(U=400\ V\)
+- \(I=10\ A\)
+- \(\cos\varphi=0,85\)
 
 Alors :
 
@@ -608,107 +588,109 @@ P=\sqrt{3}\times400\times10\times0,85
 \boxed{P\approx5889\ W}
 \]
 
-La puissance active est déterminée indirectement à partir de trois grandeurs mesurées.
+La puissance active est donc d'environ 5,89 kW.
 
-## 5.4. Différence entre les deux approches
+## 5.4. Comparaison
 
-| Critère | Mesure directe | Mesure indirecte |
-|---|---|---|
-| Principe | Lecture de la grandeur recherchée | Calcul à partir d'autres grandeurs |
-| Données | Une indication exploitable | Plusieurs grandeurs mesurées |
-| Traitement | Généralement simple pour l'opérateur | Relation mathématique nécessaire |
-| Exemple | Tension affichée par un voltmètre | Résistance calculée par \(R=U/I\) |
-
-**Attention :** mesure directe au sens pratique et comparaison directe à un étalon sont deux notions différentes. Il ne faut pas les confondre.
+| Détermination directe | Détermination indirecte |
+|---|---|
+| L'appareil fournit la grandeur recherchée à l'utilisateur | La grandeur est calculée |
+| Lecture directe de l'indication | Utilisation d'une relation mathématique |
+| Exemple : thermomètre affichant 65 °C | Exemple : calcul de la résistance avec U et I |
+| Résultat généralement disponible rapidement | Nécessite plusieurs données et un calcul |
 
 ---
 
-# PARTIE VI — RELATIONS MATHÉMATIQUES ET LOIS PHYSIQUES APPLIQUÉES À LA MESURE
+# 6. RELATIONS MATHÉMATIQUES ET LOIS PHYSIQUES APPLIQUÉES À LA MESURE
 
-## 6.1. Importance des relations physiques
+La mesure industrielle repose fréquemment sur des relations physiques permettant de relier plusieurs grandeurs.
 
-La mesure expérimentale ne se limite pas à obtenir des valeurs numériques.
+La connaissance de ces relations est indispensable pour comprendre le fonctionnement des systèmes de mesure et exploiter correctement les résultats.
 
-Elle permet également de vérifier, d'exploiter ou de déterminer des relations entre plusieurs grandeurs physiques.
+## 6.1. Loi d'Ohm
 
-Ces relations constituent la base de nombreuses méthodes de mesure indirecte.
-
-## 6.2. Loi d'Ohm
-
-La loi d'Ohm établit la relation entre la tension, le courant et la résistance d'un conducteur ohmique dans les conditions où cette loi est applicable.
+La loi d'Ohm établit la relation entre la tension, le courant et la résistance d'un conducteur ohmique.
 
 \[
-U=RI
+U=R I
 \]
 
-Formes dérivées :
-
-\[
-R=\frac{U}{I}
-\]
+On peut également écrire :
 
 \[
 I=\frac{U}{R}
 \]
 
-### Application industrielle
+\[
+R=\frac{U}{I}
+\]
 
-On mesure une tension de 48 V aux bornes d'une résistance et un courant de 2 A.
+**Application :**
+
+Un circuit présente une tension de 48 V et une résistance de 24 Ω.
 
 \[
-R=\frac{48}{2}
+I=\frac{48}{24}
 \]
 
 \[
-\boxed{R=24\ \Omega}
+\boxed{I=2\ A}
 \]
 
-Cette méthode permet de déterminer une résistance sans utiliser directement un ohmmètre.
+Cette relation est utilisée dans les mesures électriques et le diagnostic des circuits industriels.
 
-## 6.3. Puissance électrique
+## 6.2. Puissance électrique
 
-Pour un circuit électrique continu :
+En courant continu ou pour des grandeurs instantanées :
 
 \[
-P=UI
+P=U I
 \]
 
-Pour un circuit monophasé sinusoïdal :
+Pour un régime alternatif monophasé sinusoïdal :
 
 \[
-P=UI\cos\varphi
+P=U I\cos\varphi
 \]
 
 Pour un système triphasé équilibré :
 
 \[
-P=\sqrt{3}UI\cos\varphi
+P=\sqrt{3}\,U I\cos\varphi
 \]
 
-Ces relations permettent de déterminer la puissance à partir de mesures électriques.
+Ces relations permettent de déterminer une puissance à partir des grandeurs électriques mesurées.
 
-## 6.4. Fréquence et période
+## 6.3. Relation entre période et fréquence
 
-La fréquence représente le nombre de périodes réalisées pendant une seconde.
+Pour un phénomène périodique, la fréquence et la période sont liées par :
 
 \[
 f=\frac{1}{T}
 \]
 
-Avec :
-
-- \(f\) : fréquence en hertz.
-- \(T\) : période en secondes.
-
-Exemple :
-
-Un signal électrique possède une période de :
+Et :
 
 \[
-T=20\ ms=0,020\ s
+T=\frac{1}{f}
 \]
 
-Sa fréquence vaut :
+Avec :
+
+- \(f\) : fréquence en hertz (Hz) ;
+- \(T\) : période en secondes (s).
+
+**Exemple :**
+
+Un signal présente une période de 20 ms.
+
+Conversion :
+
+\[
+T=20\times10^{-3}\ s
+\]
+
+Donc :
 
 \[
 f=\frac{1}{0,020}
@@ -718,230 +700,236 @@ f=\frac{1}{0,020}
 \boxed{f=50\ Hz}
 \]
 
-Cette relation est notamment utilisée pour déterminer la fréquence d'un réseau électrique à partir de l'observation de sa période.
+Cette relation est notamment utilisée pour vérifier la fréquence d'une alimentation électrique industrielle.
 
-## 6.5. Mesure d'une grandeur par effet physique
+## 6.4. Loi de Hooke : relation entre force et déformation
 
-Certaines méthodes de mesure reposent sur la conversion d'une grandeur physique en une autre grandeur exploitable.
-
-Exemple : mesure d'une force par déformation élastique.
-
-Dans le domaine élastique, la loi de Hooke s'écrit :
+Dans le domaine élastique d'un ressort, la loi de Hooke s'écrit :
 
 \[
 F=kx
 \]
 
-Avec :
+Où :
 
-- \(F\) : force appliquée en newtons.
-- \(k\) : raideur du ressort en N/m.
-- \(x\) : allongement en mètres.
+- \(F\) est la force appliquée en newtons ;
+- \(k\) est la raideur du ressort en N/m ;
+- \(x\) est l'allongement en mètres.
 
-On peut donc déterminer la force à partir de l'allongement :
+**Exemple :**
 
-\[
-F=kx
-\]
-
-Exemple :
+Un ressort possède une raideur de 2000 N/m et subit un allongement de 0,01 m.
 
 \[
-k=2000\ N/m
+F=2000\times0,01
 \]
 
 \[
-x=0,005\ m
+\boxed{F=20\ N}
 \]
 
-Alors :
+Cette relation constitue un exemple de détermination indirecte d'une force à partir d'un déplacement connu et d'une raideur déterminée.
+
+## 6.5. Relation entre température et résistance électrique
+
+La résistance de certains conducteurs métalliques varie avec la température.
+
+Dans une approximation linéaire autour d'une température de référence :
 
 \[
-F=2000\times0,005
+R(T)=R_0[1+\alpha(T-T_0)]
 \]
 
-\[
-\boxed{F=10\ N}
-\]
+Où :
 
-Cette relation illustre le principe général d'une mesure indirecte fondée sur une loi physique.
+- \(R(T)\) est la résistance à la température \(T\) ;
+- \(R_0\) est la résistance à la température de référence \(T_0\) ;
+- \(\alpha\) est le coefficient de température du matériau.
 
-## 6.6. Exploitation des mesures répétées
-
-Lorsqu'une même grandeur est mesurée plusieurs fois dans des conditions comparables, les résultats peuvent être exploités statistiquement.
-
-Pour \(n\) mesures :
-
-\[
-x_1,x_2,\ldots,x_n
-\]
-
-La moyenne arithmétique est :
-
-\[
-\overline{x}=\frac{1}{n}\sum_{i=1}^{n}x_i
-\]
-
-L'écart-type expérimental d'un échantillon est :
-
-\[
-s=\sqrt{\frac{\sum_{i=1}^{n}(x_i-\overline{x})^2}{n-1}}
-\]
-
-Ces calculs permettent notamment de caractériser la dispersion des résultats.
-
-L'étude complète des erreurs, des incertitudes et de leur exploitation a déjà été développée dans le chapitre consacré à la métrologie.
+Cette relation est notamment utile pour comprendre pourquoi la température doit être prise en compte lors de certaines mesures de résistance d'enroulements électriques.
 
 ---
 
-# PARTIE VII — SYNTHÈSE GÉNÉRALE
+# 7. SYNTHÈSE GÉNÉRALE
 
-La théorie de la mesure permet de comprendre les principes scientifiques sur lesquels repose toute opération de mesurage.
+La théorie de la mesure permet de comprendre les principes scientifiques qui se trouvent derrière toute opération de mesurage.
 
-Les notions fondamentales à retenir sont :
+Les notions essentielles de ce chapitre sont les suivantes :
 
-1. Toute mesure repose sur un phénomène physique exploitable.
-2. Le mesurande doit être défini avec précision.
-3. La méthode expérimentale dépend du phénomène étudié et du résultat recherché.
-4. Une mesure peut reposer sur une déviation, un équilibre ou une substitution.
-5. La comparaison permet de relier une grandeur inconnue à une référence.
-6. Une grandeur peut être déterminée directement ou indirectement.
-7. Les lois physiques permettent d'établir des relations mathématiques entre les grandeurs.
-8. Les mesures répétées peuvent être exploitées statistiquement.
+| Notion | Idée essentielle |
+|---|---|
+| Mesure | Établir une relation entre une grandeur et une référence |
+| Mesurage | Ensemble des opérations expérimentales permettant d'obtenir un résultat |
+| Mesurande | Grandeur que l'on souhaite mesurer |
+| Résultat de mesure | Valeur accompagnée de son unité et, si nécessaire, de son incertitude |
+| Erreur | Écart entre une valeur mesurée et une valeur de référence |
+| Incertitude | Paramètre caractérisant le doute associé au résultat |
+| Méthode par déviation | Déterminer une grandeur à partir d'une indication |
+| Méthode par zéro | Rechercher une condition d'équilibre |
+| Méthode par substitution | Remplacer la grandeur inconnue par une référence équivalente |
+| Comparaison | Confronter une grandeur inconnue à une référence |
+| Détermination indirecte | Calculer une grandeur à partir d'autres grandeurs mesurées |
 
-La théorie de la mesure constitue ainsi une base indispensable pour comprendre la modélisation des systèmes de mesure et la réalisation des chaînes de mesure industrielles.
+La maîtrise de ces notions constitue une base indispensable pour aborder la modélisation des systèmes de mesure, la chaîne de mesure et l'exploitation des résultats.
 
 ---
 
-# PARTIE VIII — EXERCICES D'APPLICATION ET ÉTUDES DE CAS INDUSTRIELS
+# 8. EXERCICES D'APPLICATION
 
-## Exercice 1 — Détermination d'une résistance
+## Exercice 1 — Loi d'Ohm
 
-Un technicien mesure une tension de 36 V aux bornes d'un composant et un courant de 1,5 A qui le traverse.
+Un technicien mesure une tension de 24 V aux bornes d'une résistance. Le courant qui la traverse est de 2 A.
 
-1. Déterminer la résistance du composant.
-2. Préciser s'il s'agit d'une mesure directe ou indirecte de la résistance.
-3. Donner la loi physique utilisée.
+1. Déterminer la résistance.
+2. Préciser s'il s'agit d'une détermination directe ou indirecte.
+3. Donner la relation mathématique utilisée.
 
-## Exercice 2 — Équilibre d'un pont de Wheatstone
+## Exercice 2 — Pont de Wheatstone
 
 Un pont de Wheatstone est équilibré avec les valeurs suivantes :
 
-\[
-R_1=120\ \Omega
-\]
-
-\[
-R_2=240\ \Omega
-\]
-
-\[
-R_3=180\ \Omega
-\]
+- \(R_1=120\ \Omega\)
+- \(R_2=240\ \Omega\)
+- \(R_3=180\ \Omega\)
 
 Déterminer la résistance inconnue \(R_x\).
 
-## Exercice 3 — Puissance triphasée
+## Exercice 3 — Puissance électrique
 
-Un moteur triphasé fonctionne sous les conditions suivantes :
+Un moteur triphasé équilibré fonctionne sous une tension composée de 400 V. Il absorbe un courant de 12 A avec un facteur de puissance de 0,82.
 
-- Tension composée : 400 V.
-- Courant de ligne : 12 A.
-- Facteur de puissance : 0,82.
+Déterminer sa puissance active absorbée.
 
-1. Calculer la puissance active absorbée.
-2. Préciser pourquoi cette détermination est indirecte.
+## Exercice 4 — Exploitation de mesures
 
-## Exercice 4 — Exploitation d'une série de mesures
+Un technicien relève les températures suivantes sur un palier :
 
-Un technicien relève les températures suivantes sur un palier de moteur :
-
-\[
-62;\ 64;\ 63;\ 65;\ 66;\ 64\ ^\circ C
-\]
+52 °C ; 54 °C ; 56 °C ; 58 °C ; 60 °C.
 
 1. Calculer la température moyenne.
 2. Déterminer la température minimale.
 3. Déterminer la température maximale.
 4. Calculer l'étendue des mesures.
 
-## Exercice 5 — Détermination d'une fréquence
+## Exercice 5 — Période et fréquence
 
-Un oscilloscope permet de mesurer une période de 16 ms.
+Un signal électrique périodique présente une période de 10 ms.
 
-1. Convertir cette période en secondes.
-2. Calculer la fréquence du signal.
-3. Interpréter le résultat.
+Déterminer sa fréquence.
 
-## Exercice 6 — Application de la loi de Hooke
+## Exercice 6 — Loi de Hooke
 
-Un dispositif mécanique possède une raideur de 5000 N/m. Lorsqu'une force est appliquée, son allongement mesuré est de 3 mm.
+Un ressort possède une raideur de 1500 N/m. Il subit un allongement de 0,02 m.
 
-1. Convertir l'allongement en mètres.
-2. Calculer la force appliquée.
-3. Identifier la relation physique exploitée.
+Déterminer la force appliquée.
 
-## Exercice 7 — Étude de cas : contrôle d'un moteur électrique
+## Exercice 7 — Étude de cas industrielle
 
-Lors d'une opération de maintenance, un technicien doit déterminer la résistance électrique d'un enroulement moteur.
+Un technicien doit déterminer la résistance d'un enroulement de moteur électrique.
 
-Il dispose :
-- D'une alimentation continue.
-- D'un voltmètre.
-- D'un ampèremètre.
-- De câbles de raccordement.
+Il dispose d'un multimètre et d'une alimentation électrique réglable. Il décide d'appliquer une tension connue, de mesurer le courant qui traverse l'enroulement, puis de calculer sa résistance.
 
-Les mesures obtenues sont :
-
-\[
-U=24\ V
-\]
-
-\[
-I=0,8\ A
-\]
-
-Questions :
-
-1. Quelle est la grandeur recherchée ?
-2. Quelles sont les grandeurs directement observées ?
-3. Quelle loi physique doit être utilisée ?
-4. Calculer la résistance de l'enroulement.
-5. Pourquoi faut-il préciser la température de l'enroulement lors de cette mesure ?
+1. Quelle méthode de détermination utilise-t-il ?
+2. Quelles sont les deux grandeurs directement relevées ?
+3. Quelle relation permet de calculer la résistance ?
+4. Pourquoi faut-il tenir compte de la température de l'enroulement lors de cette opération ?
 
 ---
 
-# PARTIE IX — ÉVALUATION GÉNÉRALE
+# 9. ÉVALUATION GÉNÉRALE
 
-## Questions de connaissances
+**Consigne :** choisir la bonne réponse pour chaque question.
 
-**Question 1 :** Comment définit-on le mesurande ?
+### Question 1
 
-**Question 2 :** Quelle est la différence entre une mesure directe au sens pratique et une mesure indirecte ?
+Le mesurande représente :
 
-**Question 3 :** Quel est le principe fondamental de la méthode du zéro ?
+A. L'appareil utilisé pour mesurer.  
+B. La grandeur que l'on souhaite mesurer.  
+C. La valeur de référence.  
+D. L'erreur de mesure.
 
-**Question 4 :** Pourquoi utilise-t-on un pont de Wheatstone ?
+### Question 2
 
-**Question 5 :** Quelle relation mathématique permet de déterminer une résistance à partir d'une tension et d'un courant ?
+Le principe fondamental de la mesure repose sur :
 
-## Questions de raisonnement
+A. La transformation systématique d'une grandeur en température.  
+B. La comparaison ou l'établissement d'une relation avec une référence.  
+C. L'utilisation obligatoire d'un automate programmable.  
+D. La suppression de toutes les erreurs.
 
-**Question 6 :** Pourquoi deux mesures de résistance d'un même enroulement peuvent-elles donner des résultats différents si elles sont réalisées à des températures différentes ?
+### Question 3
 
-**Question 7 :** Pourquoi la valeur moyenne d'une grandeur variable ne suffit-elle pas toujours à caractériser son comportement ?
+Dans la méthode par zéro, on recherche :
 
-**Question 8 :** Un instrument affiche directement une valeur de résistance, mais réalise intérieurement une mesure de tension et de courant. Pourquoi peut-on néanmoins parler de mesure directe au sens pratique ?
+A. Une indication maximale.  
+B. Une variation de température.  
+C. Une différence nulle entre deux grandeurs.  
+D. Une valeur minimale de courant.
 
-## Problème de synthèse
+### Question 4
 
-Un moteur triphasé est alimenté sous 400 V. Le courant de ligne mesuré est de 15 A et son facteur de puissance est de 0,80.
+Le pont de Wheatstone est principalement associé à :
 
-1. Calculer la puissance active absorbée.
-2. Identifier les grandeurs mesurées.
-3. Identifier la grandeur déterminée par calcul.
-4. Justifier pourquoi cette détermination constitue une mesure indirecte.
+A. La mesure d'une résistance par équilibre.  
+B. La mesure directe d'une température.  
+C. La mesure d'une fréquence mécanique.  
+D. La mesure d'un débit.
+
+### Question 5
+
+Lorsqu'un technicien calcule une résistance à partir d'une tension et d'un courant mesurés, il réalise :
+
+A. Une détermination directe.  
+B. Une détermination indirecte.  
+C. Une mesure par déviation uniquement.  
+D. Une mesure de température.
+
+### Question 6
+
+La relation entre la fréquence et la période est :
+
+A. \(f=T\)  
+B. \(f=2T\)  
+C. \(f=1/T\)  
+D. \(f=T^2\)
+
+### Question 7
+
+Dans une relation linéaire \(Y=aX+b\), le coefficient \(a\) représente :
+
+A. Le décalage initial.  
+B. La sensibilité ou le coefficient de proportionnalité.  
+C. L'unité de mesure.  
+D. L'incertitude.
+
+### Question 8
+
+La méthode par substitution consiste à :
+
+A. Remplacer la grandeur inconnue par une référence produisant une indication équivalente.  
+B. Supprimer la référence.  
+C. Mesurer uniquement une température.  
+D. Faire fonctionner l'appareil sans grandeur d'entrée.
+
+### Question 9
+
+Une tension de 24 V traverse une résistance de 12 Ω. Le courant vaut :
+
+A. 0,5 A.  
+B. 1 A.  
+C. 2 A.  
+D. 12 A.
+
+### Question 10
+
+Une mesure correctement définie doit notamment préciser :
+
+A. Uniquement le nom de l'appareil.  
+B. La nature de la grandeur, sa localisation et les conditions de mesure.  
+C. Uniquement la marque de l'instrument.  
+D. Uniquement la date de fabrication de l'appareil.
 
 ---
 
-# FIN DU CHAPITRE 02 — THÉORIE DE LA MESURE
+**FIN DU CHAPITRE 02 — THÉORIE DE LA MESURE**
